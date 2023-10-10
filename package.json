@@ -1,0 +1,25 @@
+{
+  "name": "serve-uploader",
+  "version": "1.0.0",
+  "description": "A simple server for uploading files",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "homepage": "https://github.com/linchen1987/serve-uploader",
+  "files": [
+    "public",
+    "index.js",
+    "bin"
+  ],
+  "bin": {
+    "serve-uploader": "/bin/serve-uploader.js"
+  },
+  "keywords": [],
+  "author": "link1987",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "1.4.5-lts.1"
+  }
+}
